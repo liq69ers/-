@@ -1,10 +1,5 @@
 #!/bin/bash
 
-#-------------------------------------------------------------
-# Modular bash scripts
-#-------------------------------------------------------------
-
-# iterate over our bashrc script files
 for script in bashrc_scripts/*.sh
 do
     # check if the script is executable
@@ -13,4 +8,3 @@ do
         source ${script}
     fi
 done
-
